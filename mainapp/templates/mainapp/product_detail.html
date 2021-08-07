@@ -1,0 +1,31 @@
+{% extends 'mainapp/index.html' %}
+{% load specifications %}
+{% block content %}
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="{{ product.image.url }}" class="img-fluid m-3 p-3">
+    </div>
+    <div class="col-md-8">
+        <nav aria-label="breadcrumb" class="pt-3">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'index' %}">Главная</a></li>
+            <li class="breadcrumb-item"><a href="#">{{ product.category.name }}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ product.title }}</li>
+          </ol>
+        </nav>
+        <h3>{{ product.title }}</h3>
+        <p>Цена: {{ product.price }} USD</p>
+        <p>Описание: {{ product.description }}</p>
+    </div>
+    <div class="m-3 p-3">
+        <p>Характеристики: </p>
+
+        {{ product|product_spec }}
+
+
+    </div>
+</div>
+
+
+{% endblock content %}
