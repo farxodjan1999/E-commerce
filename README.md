@@ -12,7 +12,7 @@
   
   1. Clone project
   2. Install Django
-  3. Run Server 
+  3. Run server 
   4. Open app 'mainapp' (http://localhost:8000/mainapp/)
   It is ready 
   
