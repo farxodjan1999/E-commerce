@@ -5,7 +5,7 @@
   # Functions of this site
   1. Adding new categories of products
   2. Adding new products in certain categories
-  3. Adding new customers (on shell)
+  3. Adding new customers
   4. Adding the chosen product to cart (on shell)
   
   ## How to start app
