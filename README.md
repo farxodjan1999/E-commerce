@@ -19,5 +19,6 @@
   ## Admin page
   * Login: admin
   * Password: admin
+  
   Here you can add new products so they can be visible on main page of site
   
