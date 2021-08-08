@@ -1,8 +1,8 @@
   # E-commerce
   
-  This is E-commerce site created with Python on Django framework.
+  This is E-commerce website created with Python on Django Framework.
   
-  # Functions of this site
+  # Functions of this website
   1. Adding/Deleting new categories of products
   2. Adding/Deleting new products in certain categories
   3. Adding/Deleting new customers
