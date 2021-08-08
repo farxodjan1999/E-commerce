@@ -3,10 +3,10 @@
   This is E-commerce site created with Python on Django framework.
   
   # Functions of this site
-  1. Adding new categories of products
-  2. Adding new products in certain categories
-  3. Adding new customers
-  4. Adding the chosen product to cart (on shell)
+  1. Adding/Deleting new categories of products
+  2. Adding/Deleting new products in certain categories
+  3. Adding/Deleting new customers
+  4. Adding/Deleting the chosen product to cart (on shell)
   
   ## How to start app
   
